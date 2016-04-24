@@ -15,8 +15,8 @@
         android:background="#ffffff">
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:id="@+id/imageView"
             android:src="@android:drawable/ic_delete"
             android:layout_marginBottom="70dp"
@@ -25,14 +25,13 @@
             android:layout_alignEnd="@+id/imageView3" />
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
             android:id="@+id/imageView2"
             android:src="@android:drawable/ic_btn_speak_now"
             android:layout_above="@+id/imageView6"
-            android:layout_alignRight="@+id/imageView6"
-            android:layout_alignEnd="@+id/imageView6"
-            android:layout_marginBottom="82dp" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="65dp" />
 
         <ImageView
             android:layout_width="55dp"
@@ -76,7 +75,25 @@
             android:src="@drawable/ic_bluetooth_black_24dp"
             android:background="#6ca6f3" />
 
-        <CheckBox
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/imageView8"
+        android:src="@android:drawable/ic_media_ff"
+        android:layout_above="@+id/imageView6"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/imageView9"
+        android:src="@android:drawable/ic_media_rew"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2" />
+
+    <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ultrasound"
